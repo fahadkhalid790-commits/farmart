@@ -1,2 +1,2 @@
-[phases.install]
-cmds = ["npm install --legacy-peer-deps --workspaces --include-workspace-root"]
+[phases.build]
+cmds = ["npm install --legacy-peer-deps", "npm run production"]
